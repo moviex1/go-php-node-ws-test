@@ -1,0 +1,17 @@
+{
+    "name": "nikitazubkov/test-ws",
+    "autoload": {
+        "psr-4": {
+            "Nikitazubkov\\TestWs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nikitazubkov",
+            "email": "moviex@inbox.ru"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
