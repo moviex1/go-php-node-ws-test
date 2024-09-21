@@ -38,7 +38,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", handleWebSocket)
 
-	port := 8081
+	port := 8080
 	fmt.Printf("Golang WebSocket server is running on :%d\n", port)
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", port), nil))
 }
